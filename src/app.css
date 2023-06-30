@@ -44,7 +44,8 @@ body {
 	-webkit-touch-callout: none;
 }
 
-p {
+.text-adjust,
+.text-adjust * {
 	text-size-adjust: 90%;
 	-moz-text-size-adjust: 90%;
 	-webkit-text-size-adjust: 90%;
