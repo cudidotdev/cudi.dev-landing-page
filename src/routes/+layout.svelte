@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:image" content="https://cudi.dev/og-image.png" />
-	<meta name="twitter:card" content="product" />
+	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@CudiLala_" />
 	<meta name="twitter:creator" content="@CudiLala_" />
 	<meta name="twitter:title" content="High Performace Web Application Developer" />
