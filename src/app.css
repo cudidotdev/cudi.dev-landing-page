@@ -40,6 +40,11 @@ body {
 	font-family: inherit;
 	color: inherit;
 
+	text-size-adjust: 90%;
+	-moz-text-size-adjust: 90%;
+	-webkit-text-size-adjust: 90%;
+	-ms-text-size-adjust: 90%;
+
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 }
