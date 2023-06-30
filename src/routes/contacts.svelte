@@ -9,12 +9,12 @@
 			</h2>
 
 			<div class="flex flex-col gap-4 px-5 sm:px-10 sm:[&>*]:text-xl py-4">
-				<a href="https://github.com/CudiLala">GitHub</a>
-				<a href="https://www.linkedin.com/in/augustine-madu-625168223/">LinkedIn</a>
-				<a href="?">Youtube</a>
-				<a href="https://github.com/CudiLala">Twitter</a>
-				<a href="?">Instagram</a>
-				<a href="?">Facebook</a>
+				<a target="_blank" href="https://github.com/CudiLala">GitHub</a>
+				<a target="_blank" href="https://www.linkedin.com/in/augustine-madu-625168223/">LinkedIn</a>
+				<a target="_blank" href="?">Youtube</a>
+				<a target="_blank" href="https://github.com/CudiLala">Twitter</a>
+				<a target="_blank" href="?">Instagram</a>
+				<a target="_blank" href="?">Facebook</a>
 			</div>
 		</div>
 
