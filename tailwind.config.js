@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				watch: "url('../watch.png')",
-				'watch-0.3': "url('../watch-0.3.png')"
+				watch: "url('/watch.webp')",
+				'watch-0.3': "url('/watch-0.3.webp')"
 			},
 			fontFamily: {
 				default: ['Space Mono', 'system-ui', 'sans-serif']

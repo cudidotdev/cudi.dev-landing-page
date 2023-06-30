@@ -3,10 +3,10 @@
 		<div
 			class="flex flex-col text-base pt-4 pb-8 sm:pb-10 sm:text-lg gap-6 max-w-screen-sm lg:bg-none bg-watch-0.3 bg-contain bg-no-repeat bg-center"
 		>
-			<p>
+			<h1>
 				Hi. I am Augustine, mostly known as Cudi. I am a software developer and I build high
 				performance web applications.
-			</p>
+			</h1>
 
 			<p>
 				I love programming and problem solving in general. I write awesome articles about web
