@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.input {
+		@apply bg-custom-700 rounded-[0.25rem] text-base w-full placeholder:text-custom-400 focus:text-custom-200 text-custom-400 px-4 py-2.5 order-2 focus:ring-2 ring-offset-1 ring-offset-transparent ring-custom-blue outline-none caret-custom-blue transition;
+	}
+
+	.textarea {
+		@apply bg-custom-700 rounded-[0.25rem] text-base w-full placeholder:text-custom-400 focus:text-custom-200 text-custom-400 px-4 py-2.5 order-2 focus:ring-2 ring-offset-1 ring-offset-transparent ring-custom-blue outline-none caret-custom-blue resize-none !h-[30rem] transition;
+	}
+
+	.label {
+		@apply text-base sm:text-lg order-1 peer-focus:text-custom-200 text-custom-400 transition;
+	}
+
+	.primary-btn {
+		@apply bg-custom-blue px-4 py-2.5 !text-base sm:!text-lg text-custom-100 rounded-[0.25rem] flex transition active:ring-1 ring-offset-1 ring-offset-transparent ring-custom-blue text-center justify-center;
+	}
+}
+
+:root {
+	scroll-behavior: smooth !important;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Space Mono', system-ui, sans-serif;
+	scroll-behavior: smooth !important;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+	display: none;
+}
+.no-scroll {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	appearance: textfield;
+	-moz-appearance: textfield;
+}
+
+button {
+	cursor: pointer;
+}
+button:disabled {
+	cursor: not-allowed;
+}
