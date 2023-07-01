@@ -9,6 +9,10 @@
 		name="description"
 		content="Hi. I am Augustine Madu, mostly known as Cudi. I am a software developer and I build high performance web applications. If you are in need of a web developer for your business application, or just for questions and collaborations, You can email me at partner@cudi.dev"
 	/>
+	<meta
+		name="keywords"
+		content="Hire, Web Application Developer, Job, High performance, Javascript, Typescript, Rust"
+	/>
 	<meta property="og:title" content="High Performace Web Application Developer" />
 	<meta
 		property="og:description"
