@@ -42,6 +42,12 @@ body {
 
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+*::selection {
+	background-color: #204c75;
+	color: #9fa4b0;
 }
 
 .text-adjust,
