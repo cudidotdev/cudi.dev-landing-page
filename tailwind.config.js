@@ -20,16 +20,16 @@ export default {
 				'2xl': '90rem'
 			},
 			colors: {
-				'custom-100': '#9FA4B0',
-				'custom-200': '#7F8593',
-				'custom-400': '#565B67',
+				'custom-100': '#BAC0D1',
+				'custom-200': '#9AA0B0',
+				'custom-400': '#646B7C',
 				'custom-500': '#535762',
 				'custom-600': '#25272E',
 				'custom-700': '#1D1F22',
 				'custom-800': '#141517',
 				'custom-900': '#111214',
-				'custom-blue': '#204C75',
-				'custom-red': '#752039'
+				'custom-blue': '#275988',
+				'custom-red': '#922646'
 			}
 		}
 	},
